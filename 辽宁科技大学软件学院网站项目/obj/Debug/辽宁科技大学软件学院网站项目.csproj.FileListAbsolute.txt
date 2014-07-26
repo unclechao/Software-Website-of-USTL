@@ -1,0 +1,12 @@
+C:\Users\Unclechao\Documents\Visual Studio 2008\Projects\辽宁科技大学软件学院网站项目\辽宁科技大学软件学院网站项目\bin\辽宁科技大学软件学院网站项目.dll
+C:\Users\Unclechao\Documents\Visual Studio 2008\Projects\辽宁科技大学软件学院网站项目\辽宁科技大学软件学院网站项目\bin\辽宁科技大学软件学院网站项目.pdb
+C:\Users\Unclechao\Documents\Visual Studio 2008\Projects\辽宁科技大学软件学院网站项目\辽宁科技大学软件学院网站项目\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Unclechao\Documents\Visual Studio 2008\Projects\辽宁科技大学软件学院网站项目\辽宁科技大学软件学院网站项目\obj\Debug\辽宁科技大学软件学院网站项目.dll
+C:\Users\Unclechao\Documents\Visual Studio 2008\Projects\辽宁科技大学软件学院网站项目\辽宁科技大学软件学院网站项目\obj\Debug\辽宁科技大学软件学院网站项目.pdb
+C:\Users\Unclechao\Documents\Visual Studio 2008\Projects\辽宁科技大学软件学院网站项目\辽宁科技大学软件学院网站项目\bin\CKFinder.dll
+G:\辽宁科技大学软件学院网站项目6.7备份\辽宁科技大学软件学院网站项目\bin\辽宁科技大学软件学院网站项目.dll
+G:\辽宁科技大学软件学院网站项目6.7备份\辽宁科技大学软件学院网站项目\bin\辽宁科技大学软件学院网站项目.pdb
+G:\辽宁科技大学软件学院网站项目6.7备份\辽宁科技大学软件学院网站项目\bin\CKFinder.dll
+G:\辽宁科技大学软件学院网站项目6.7备份\辽宁科技大学软件学院网站项目\obj\Debug\ResolveAssemblyReference.cache
+G:\辽宁科技大学软件学院网站项目6.7备份\辽宁科技大学软件学院网站项目\obj\Debug\辽宁科技大学软件学院网站项目.dll
+G:\辽宁科技大学软件学院网站项目6.7备份\辽宁科技大学软件学院网站项目\obj\Debug\辽宁科技大学软件学院网站项目.pdb

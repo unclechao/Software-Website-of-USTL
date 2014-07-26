@@ -1,0 +1,96 @@
+﻿body
+{
+	  font-size:11pt;
+}
+a
+{
+	text-decoration:none;
+}
+a:link , a:visited
+{
+	color:Black;
+}
+a:hover
+{
+	 color:Red;
+}
+#headnavigate td
+{
+	border-bottom-style:solid; border-bottom-width:2px; border-bottom-color:Gray;
+}
+#all 
+{
+	margin-left:auto; margin-right:auto; width:976px;
+}
+#footer
+{
+	text-align:center;font-size:10pt;
+}
+#headnavigate  
+{
+	text-align:center;background-image:url(/IMG/nav_bg.jpg); height:40px; background-repeat:repeat-x;
+}
+#header
+{
+	text-align:center;font-size:10pt;width:976px; height:130px;
+}
+#repeaterleft
+{
+	float:left;width:840px;
+}
+#repeaterright
+{
+	float:right; width:118px;
+}
+#tablestyle
+{
+	border-style:double;border-color:GrayText; border-bottom-width:3px;
+}
+#repeaterleft  a:hover
+{
+	 text-decoration:underline;
+}
+#tittle
+{
+	 text-align:center; font-size:16pt;
+}
+#creattime
+{
+	 text-align:center; font-size:10pt;
+}
+#maincontent
+{
+	 font-size:11pt;
+}
+#showtable
+{
+	border-style:double;border-color:GrayText;width:976px;
+}
+#学院概况
+{
+	position:relative;left:-10%; font-size:10pt;
+}
+#教学工作
+{
+	position:relative; left:-5%;font-size:10pt;
+}
+#学科建设
+{
+	position:relative; left:0%;font-size:10pt;
+}
+#学术科研
+{
+	position:relative; left:5%;font-size:10pt;
+}
+#师资队伍
+{
+	position:relative; left:10%;font-size:10pt;
+}
+#党政工作
+{
+	position:relative; left:15%;font-size:10pt;
+}
+#实验室介绍
+{
+	position:relative; left:20%;font-size:10pt;
+}

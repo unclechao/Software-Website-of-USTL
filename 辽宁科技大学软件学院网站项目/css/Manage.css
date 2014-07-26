@@ -1,0 +1,45 @@
+﻿body
+{
+	font-size:11pt;
+}
+
+a
+{
+	text-decoration:none;
+}
+a:link
+{
+	color:Black;
+}
+a:visited
+{
+	color:Black;
+}
+a:hover
+{
+	 color:Red; text-decoration:underline;
+}
+#all 
+{
+	margin-left:auto; margin-right:auto; width:1076px;
+}
+#header
+{
+	height:100px;font-size:14pt; text-align:center;
+}
+#function
+{
+	float:left; width:200px;
+}
+#manage
+{
+	float:right;width:876px;
+}
+#footer
+{
+	text-align:center;font-size:10pt; width:1026px;margin-left:auto; margin-right:auto;
+}
+#functiontable
+{
+	border-style:solid; border-width:2px;  border-color:Black; text-align:center;
+}

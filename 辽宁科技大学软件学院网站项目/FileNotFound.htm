@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title></title>
+
+    <script src="js/jquery-1.7.1.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function() {
+            var lefttime = 6;
+            var intervalid = setInterval(function() {
+                if (lefttime > 1) {
+                    lefttime--;
+                    $("#errmsg").html("对不起，您请求的页面未找到，" + lefttime + "  秒后返回网站主页！");
+                    return;
+                }
+                else {
+                    $("#errmsg").html("");
+                    clearInterval(intervalid);
+                    location.href("rjxy.aspx");
+                }
+            }, 1000);
+        });
+    </script>
+</head>
+<body >
+<div style="margin-left:auto; margin-right:auto;width:380px">
+    <img src="IMG/404error.jpg" /> <br />
+    <p id="errmsg" style="color:Red; font-size:12pt"></p>
+</div></body>
+</html>

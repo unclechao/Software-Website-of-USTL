@@ -1,0 +1,56 @@
+﻿body
+{
+	 font-size:11pt;
+	 background-image: url(/IMG/112.jpg);
+	 background-repeat:no-repeat;
+	 background-position:0px 30px;
+	 
+}
+a
+{
+	text-decoration:none;
+}
+a:link
+{
+	color:Black;
+}
+a:visited
+{
+	color:Black;
+}
+a:hover
+{
+	 color:Red;
+}
+#all
+{
+    margin-left:auto; margin-right:auto;
+    width:1024px;
+}
+#header
+{
+	text-align:right;font-size:10pt;
+}
+#footer
+{
+	text-align:center;
+	 margin-top:530px;
+	 font-size:10pt;
+}
+#left
+{
+	 float:left;
+	width: 300px;
+	height:520px;
+}
+#right
+{		
+	  float:right;
+	  width:724px;
+	  height:520px;
+}
+#rightmain
+{
+	width:724px;
+	height:450px;
+}

@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteFront.master.cs" Inherits="辽宁科技大学软件学院网站项目.SiteFront" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title></title>
+    <script type="text/javascript">
+    </script>
+    <link href="css/MasterCss.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="all">
+    <div id="header">
+    <img alt="" src="IMG/mastertittle.jpg" style="width: 976px; height: 130px" />
+    </div>
+    <div id="headnavigate">
+    &nbsp&nbsp&nbsp<label onclick="navigate('rjxy.aspx')">网站首页</label>&nbsp&nbsp&nbsp<label> 学院概况</label>&nbsp&nbsp&nbsp<label> 教学工作</label>&nbsp&nbsp&nbsp<label>学科建设</label>&nbsp&nbsp&nbsp<label>学术研究</label>&nbsp&nbsp&nbsp<label>师资队伍</label>&nbsp&nbsp&nbsp<label>党政工作</label>&nbsp&nbsp&nbsp<label>实验室介绍</label>&nbsp&nbsp&nbsp<label>下载中心</label>
+    </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <div id="footer">
+        辽宁科技大学软件学院Unclechao开发维护<br />
+        联系邮箱：uncle.chao@live.cn&nbsp&nbsp&nbsp 联系电话：0412-5929818<br />
+        [<a href="Admin/ad_login.aspx">后台管理</a>]Copyright 2012, 版权所有
+        </div>
+    </div>
+    </form>
+</body>
+</html>

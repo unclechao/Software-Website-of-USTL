@@ -1,0 +1,127 @@
+﻿<%@ Master Language="C#" EnableViewState="false" AutoEventWireup="true" CodeBehind="SiteFront.master.cs" Inherits="辽宁科技大学软件学院网站项目.SiteFront" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title></title>
+    <script type="text/javascript">
+        function noshow学院概况() {
+            var 学院概况 = document.getElementById("学院概况");
+            学院概况.style.display = "none";
+        }
+        function show学院概况() {
+            var 学院概况 = document.getElementById("学院概况");
+            学院概况.style.display = "";
+        }
+        function noshow教学工作() {
+            var 学院概况 = document.getElementById("教学工作");
+            教学工作.style.display = "none";
+        }
+        function show教学工作() {
+            var 学院概况 = document.getElementById("教学工作");
+            教学工作.style.display = "";
+        }
+        function noshow学科建设() {
+            var 学科建设 = document.getElementById("学科建设");
+            学科建设.style.display = "none";
+        }
+        function show学科建设() {
+            var 学科建设 = document.getElementById("学科建设");
+            学科建设.style.display = "";
+        }
+        function noshow学术科研() {
+            var 学术科研 = document.getElementById("学术科研");
+            学术科研.style.display = "none";
+        }
+        function show学术科研() {
+            var 学术科研 = document.getElementById("学术科研");
+            学术科研.style.display = "";
+        }
+        function noshow师资队伍() {
+            var 师资队伍 = document.getElementById("师资队伍");
+            师资队伍.style.display = "none";
+        }
+        function show师资队伍() {
+            var 师资队伍 = document.getElementById("师资队伍");
+            师资队伍.style.display = "";
+        }
+        function noshow实验室介绍() {
+            var 实验室介绍 = document.getElementById("实验室介绍");
+            实验室介绍.style.display = "none";
+        }
+        function show实验室介绍() {
+            var 实验室介绍 = document.getElementById("实验室介绍");
+            实验室介绍.style.display = "";
+        }
+        function noshow党政工作() {
+            var 党政工作 = document.getElementById("党政工作");
+            党政工作.style.display = "none";
+        }
+        function show党政工作() {
+            var 党政工作 = document.getElementById("党政工作");
+            党政工作.style.display = "";
+        }
+    </script>
+    <link href="css/MasterCss.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="all">
+    <div id="header" style=" background-image:url('IMG/mastertittle.jpg')">
+    </div>
+    <div id="headnavigate">
+    &nbsp&nbsp&nbsp<a href="rjxy.aspx">网站首页</a>&nbsp&nbsp&nbsp<a href="学院概况.aspx" onmouseout="noshow学院概况()" onmouseover="show学院概况()">学院概况</a>&nbsp&nbsp&nbsp<a href="教学工作.aspx" onmouseout="noshow教学工作()" onmouseover="show教学工作()">教学工作</a>
+    &nbsp&nbsp&nbsp<a href="学科建设.aspx" onmouseout="noshow学科建设()" onmouseover="show学科建设()">学科建设</a>&nbsp&nbsp&nbsp<a href="学术科研.aspx" onmouseout="noshow学术科研()" onmouseover="show学术科研()">学术科研</a>
+    &nbsp&nbsp&nbsp<a href="师资队伍.aspx" onmouseout="noshow师资队伍()" onmouseover="show师资队伍()">师资队伍</a>&nbsp&nbsp&nbsp<a href="党政工作.aspx" onmouseout="noshow党政工作()" onmouseover="show党政工作()">党政工作</a>
+    &nbsp&nbsp&nbsp<a href="实验室介绍.aspx" onmouseout="noshow实验室介绍()" onmouseover="show实验室介绍()">实验室介绍</a>&nbsp&nbsp&nbsp<a href="下载中心.aspx">下载中心</a>
+                    <div id="学院概况" style="display:none" onmouseover="show学院概况()" onmouseout="noshow学院概况()" >
+        <table>
+            <tr><td><a href="学院概况.aspx?show=学院1">学院简介</a></td><td><a href="学院概况.aspx?show=学院2">组织机构</a></td><td><a href="学院概况.aspx?show=学院3">学院风采</a></td><td><a href="学院概况.aspx?show=学院4">现任领导</a></td><td><a href="学院概况.aspx?show=学院5">精品课程</a></td><td><a href="学院概况.aspx?show=学院6">校友联络</a></td></tr>
+        </table>
+        </div>
+    <div id="教学工作" style="display:none" onmouseover="show教学工作()" onmouseout="noshow教学工作()" >
+        <table>
+            <tr><td><a href="教学工作.aspx?show=教学1">教学通知</a></td><td><a href="教学工作.aspx?show=教学2">本科教学</a></td><td><a href="教学工作.aspx?show=教学3">研究生教学</a></td><td><a href="教学工作.aspx?show=教学4">软件工程系</a></td>
+            <td><a href="教学工作.aspx?show=教学5">网络工程系</a></td><td><a href="教学工作.aspx?show=教学6">工程应用系</a></td><td><a href="教学工作.aspx?show=教学7">计算中心</a></td><td><a href="教学工作.aspx?show=教学8">资料下载</a></td></tr>
+        </table>
+        </div>
+    <div id="学科建设" style="display:none" onmouseover="show学科建设()" onmouseout="noshow学科建设()" >
+        <table>
+            <tr><td><a href="学科建设.aspx?show=学科1">学科状况</a></td><td><a href="学科建设.aspx?show=学科2">学位分委员会</a></td><td><a href="学科建设.aspx?show=学科3">学位分委员会职责</a></td></tr>
+        </table>
+        </div>
+    <div id="学术科研" style="display:none" onmouseover="show学术科研()" onmouseout="noshow学术科研()" >
+        <table>
+            <tr><td><a href="学术科研.aspx?show=学术1">研究方向</a></td><td><a href="学术科研.aspx?show=学术2">科研成果</a></td><td><a href="学术科研.aspx?show=学术3">主要著作</a></td><td><a href="学术科研.aspx?show=学术4">推广项目</a></td></tr>
+        </table>
+        </div>
+    <div id="师资队伍" style="display:none" onmouseover="show师资队伍()" onmouseout="noshow师资队伍()" >
+        <table>
+            <tr><td><a href="师资队伍.aspx?show=师资1">师资概况</a></td><td><a href="师资队伍.aspx?show=师资2">教授简介</a></td><td><a href="师资队伍.aspx?show=师资3">教师简介</a></td></tr>
+        </table>
+        </div>  
+    <div id="实验室介绍" style="display:none" onmouseover="show实验室介绍()" onmouseout="noshow实验室介绍()" >
+        <table>
+            <tr><td><a href="实验室介绍.aspx?show=实验室1">实验室中心概况</a></td><td><a href="实验室介绍.aspx?show=实验室2">实验室开放</a></td><td><a href="实验室介绍.aspx?show=实验室3">实验室执行计划</a></td></tr>
+        </table>
+        </div>
+    <div id="党政工作" style="display:none" onmouseover="show党政工作()" onmouseout="noshow党政工作()" >
+        <table>
+            <tr><td><a href="党政工作.aspx?show=党政1">党委工作</a></td><td><a href="党政工作.aspx?show=党政2">行政工作</a></td><td><a href="党政工作.aspx?show=党政3">工会工作</a></td></tr>
+        </table>
+        </div>
+    </div>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <div id="footer"><hr />
+        鞍山大学软件学院Unclechao开发维护<br />
+        联系邮箱：uncle.chao@live.cn&nbsp&nbsp&nbsp 联系电话：0412-5929818<br />
+        [<a href="Admin/ad_login.aspx">后台管理</a>]Copyright 2012, 版权所有
+        </div>
+    </div>
+    </form>
+</body>
+</html>

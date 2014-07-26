@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Manage.master.cs" Inherits="辽宁科技大学软件学院网站项目.Admin.Manage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title></title>
+    <link href="../css/Manage.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="all">
+    <div id="header"><br />鞍山大学软件学院&nbsp 网站后台管理系统
+    </div>
+    <div id="function">
+    <asp:HyperLink ID="Link" runat="server" NavigateUrl="~/Admin/ad_manage.aspx">功能选择</asp:HyperLink><br /><br />
+        <asp:HyperLink ID="LinkToHome" runat="server" NavigateUrl="~/rjxy.aspx">进入网站首页</asp:HyperLink><table >
+    <tr><td id="functiontable"><a href="ad_管理员信息管理.aspx">管理员信息管理</a><br /></td></tr>
+    <tr><td id="functiontable"><a href ="ad_学院概况.aspx">学院概况   页面文章管理</a><br /></td></tr>
+    <tr><td id="functiontable"><a href ="ad_教学工作.aspx">教学工作  页面文章管理</a><br /></td></tr>
+    <tr><td id="functiontable"><a href ="ad_学科建设.aspx">学科建设  页面文章管理</a><br /></td></tr>
+    <tr><td id="functiontable"><a href ="ad_学术科研.aspx">学术科研  页面文章管理</a><br /></td></tr>
+    <tr><td id="functiontable"><a href ="ad_师资队伍.aspx">师资队伍  页面文章管理</a><br /></td></tr>
+    <tr><td id="functiontable"><a href ="ad_党政工作.aspx">党政工作  页面文章管理</a><br /></td></tr>
+    <tr><td id="functiontable"><a href ="ad_实验室介绍.aspx">实验室介绍  页面文章管理</a><br /></td></tr>
+    <tr><td id="functiontable"><a href ="ad_下载中心.aspx">下载中心  页面文章管理</a><br /></td></tr>
+    <tr><td id="functiontable"><a href ="ad_通知公告.aspx">通知公告  页面文章管理</a><br /></td></tr>
+    </table>
+    </div>
+    <div id="manage">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>    
+    </div>
+    <div id="footer"><br /><hr />
+        鞍山大学软件学院Unclechao开发维护<br />
+        联系邮箱：<a href="mailto:uncle.chao@live.cn">uncle.chao@live.cn</a>&nbsp&nbsp&nbsp 联系电话：0412-5929818<br />
+        Copyright 2012, 版权所有
+    </div>
+    </form>
+</body>
+</html>

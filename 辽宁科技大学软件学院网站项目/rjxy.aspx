@@ -1,0 +1,201 @@
+﻿    <%@ Page Language="C#" EnableViewState="false" AutoEventWireup="true" CodeBehind="rjxy.aspx.cs" Inherits="辽宁科技大学软件学院网站项目.rjxy" %>
+<%@ OutputCache Duration="30" VaryByParam="*"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>鞍山大学软件学院欢迎您&nbsp&nbsp&nbsp&nbsp&nbsp</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+        
+        function tittleroll() {
+            var tittle = document.title;
+            var firstletter = tittle.charAt(0);
+            var otherletter = tittle.substring(1, tittle.length);
+            document.title = otherletter + firstletter;
+        }
+        setInterval("tittleroll()", 500);
+
+        function noshow学院概况() {
+            var 学院概况 = document.getElementById("学院概况");
+            学院概况.style.display = "none";
+        }
+        function show学院概况() {
+            var 学院概况 = document.getElementById("学院概况");
+            学院概况.style.display = "";
+        }
+        function noshow教学工作() {
+            var 学院概况 = document.getElementById("教学工作");
+            教学工作.style.display = "none";
+        }
+        function show教学工作() {
+            var 学院概况 = document.getElementById("教学工作");
+            教学工作.style.display = "";
+        }
+        function noshow学科建设() {
+            var 学科建设 = document.getElementById("学科建设");
+            学科建设.style.display = "none";
+        }
+        function show学科建设() {
+            var 学科建设 = document.getElementById("学科建设");
+            学科建设.style.display = "";
+        }
+        function noshow学术科研() {
+            var 学术科研 = document.getElementById("学术科研");
+            学术科研.style.display = "none";
+        }
+        function show学术科研() {
+            var 学术科研 = document.getElementById("学术科研");
+            学术科研.style.display = "";
+        }
+        function noshow师资队伍() {
+            var 师资队伍 = document.getElementById("师资队伍");
+            师资队伍.style.display = "none";
+        }
+        function show师资队伍() {
+            var 师资队伍 = document.getElementById("师资队伍");
+            师资队伍.style.display = "";
+        }
+        function noshow实验室介绍() {
+            var 实验室介绍 = document.getElementById("实验室介绍");
+            实验室介绍.style.display = "none";
+        }
+        function show实验室介绍() {
+            var 实验室介绍 = document.getElementById("实验室介绍");
+            实验室介绍.style.display = "";
+        }
+        function noshow党政工作() {
+            var 党政工作 = document.getElementById("党政工作");
+            党政工作.style.display = "none";
+        }
+        function show党政工作() {
+            var 党政工作 = document.getElementById("党政工作");
+            党政工作.style.display = "";
+        }
+    </script>
+</head>
+<body onload="tittleroll()">
+<form id="form1" runat="server">
+    <div id="all">
+    <div id="header">
+    <a href="rjxy.aspx">本站首页</a>&nbsp&nbsp&nbsp<a href="Admin/ad_login.aspx">管理入口</a>
+    </div>
+    <div id="left">
+        &nbsp;
+        <img id="leftpic1" alt="" src="IMG/tittle280112.jpg" /><br />
+        <img  id="leftpic2" alt="" src="IMG/mainpic295395.jpg"  /></div>  
+    <div id="right">
+   <div id="headnavigate"><br /><br />
+    &nbsp&nbsp&nbsp<label  onmouseout="noshow学院概况()" onmouseover="show学院概况()" onclick=navigate("学院概况.aspx")>学院概况</label>&nbsp&nbsp&nbsp<label onmouseout="noshow教学工作()" onmouseover="show教学工作()" onclick=navigate("教学工作.aspx")>教学工作</label>
+    &nbsp&nbsp&nbsp<label onmouseout="noshow学科建设()" onmouseover="show学科建设()" onclick=navigate("学科建设.aspx")>学科建设</label>&nbsp&nbsp&nbsp<label onmouseout="noshow学术科研()" onmouseover="show学术科研()" onclick=navigate("学术科研.aspx")>学术科研</label>
+    &nbsp&nbsp&nbsp<label  onmouseout="noshow师资队伍()" onmouseover="show师资队伍()" onclick=navigate("师资队伍.aspx")>师资队伍</label>&nbsp&nbsp&nbsp<label onmouseout="noshow实验室介绍()" onmouseover="show实验室介绍()" onclick=navigate("实验室介绍.aspx")>实验室介绍</label>
+    &nbsp&nbsp&nbsp<label onmouseout="noshow党政工作()" onmouseover="show党政工作()" onclick=navigate("党政工作.aspx")>党政工作</label>&nbsp&nbsp&nbsp<label onclick=navigate("下载中心.aspx")>下载中心</label>
+        <div id="学院概况" style="display:none" onmouseover="show学院概况()" onmouseout="noshow学院概况()" >
+        <table>
+            <tr><td><a href="学院概况.aspx?show=学院1">学院简介</a></td><td><a href="学院概况.aspx?show=学院2">组织机构</a></td><td><a href="学院概况.aspx?show=学院3">学院风采</a></td><td><a href="学院概况.aspx?show=学院4">现任领导</a></td><td><a href="学院概况.aspx?show=学院5">精品课程</a></td><td><a href="学院概况.aspx?show=学院6">校友联络</a></td></tr>
+        </table>
+        </div>
+    <div id="教学工作" style="display:none" onmouseover="show教学工作()" onmouseout="noshow教学工作()" >
+        <table>
+            <tr><td><a href="教学工作.aspx?show=教学1">教学通知</a></td><td><a href="教学工作.aspx?show=教学2">本科教学</a></td><td><a href="教学工作.aspx?show=教学3">研究生教学</a></td><td><a href="教学工作.aspx?show=教学4">软件工程系</a></td>
+            <td><a href="教学工作.aspx?show=教学5">网络工程系</a></td><td><a href="教学工作.aspx?show=教学6">工程应用系</a></td><td><a href="教学工作.aspx?show=教学7">计算中心</a></td><td><a href="教学工作.aspx?show=教学8">资料下载</a></td></tr>
+        </table>
+        </div>
+    <div id="学科建设" style="display:none" onmouseover="show学科建设()" onmouseout="noshow学科建设()" >
+        <table>
+            <tr><td><a href="学科建设.aspx?show=学科1">学科状况</a></td><td><a href="学科建设.aspx?show=学科2">学位分委员会</a></td><td><a href="学科建设.aspx?show=学科3">学位分委员会职责</a></td></tr>
+        </table>
+        </div>
+    <div id="学术科研" style="display:none" onmouseover="show学术科研()" onmouseout="noshow学术科研()" >
+        <table>
+            <tr><td><a href="学术科研.aspx?show=学术1">研究方向</a></td><td><a href="学术科研.aspx?show=学术2">科研成果</a></td><td><a href="学术科研.aspx?show=学术3">主要著作</a></td><td><a href="学术科研.aspx?show=学术4">推广项目</a></td></tr>
+        </table>
+        </div>
+    <div id="师资队伍" style="display:none" onmouseover="show师资队伍()" onmouseout="noshow师资队伍()" >
+        <table>
+            <tr><td><a href="师资队伍.aspx?show=师资1">师资概况</a></td><td><a href="师资队伍.aspx?show=师资2">教授简介</a></td><td><a href="师资队伍.aspx?show=师资3">教师简介</a></td></tr>
+        </table>
+        </div>  
+    <div id="实验室介绍" style="display:none" onmouseover="show实验室介绍()" onmouseout="noshow实验室介绍()" >
+        <table>
+            <tr><td><a href="实验室介绍.aspx?show=实验室1">实验室中心概况</a></td><td><a href="实验室介绍.aspx?show=实验室2">实验室开放</a></td><td><a href="实验室介绍.aspx?show=实验室3">实验室执行计划</a></td></tr>
+        </table>
+        </div>
+    <div id="党政工作" style="display:none" onmouseover="show党政工作()" onmouseout="noshow党政工作()" >
+        <table>
+            <tr><td><a href="党政工作.aspx?show=党政1">党委工作</a></td><td><a href="党政工作.aspx?show=党政2">行政工作</a></td><td><a href="党政工作.aspx?show=党政3">工会工作</a></td></tr>
+        </table>
+        </div>  
+    </div>
+    <br /><br />
+    <div id="rightmain">
+        <asp:ObjectDataSource ID="odsnewestnews" runat="server" DeleteMethod="Delete" 
+            InsertMethod="Insert" OldValuesParameterFormatString="original_{0}" 
+            SelectMethod="SelectNewestNews" 
+            TypeName="辽宁科技大学软件学院网站项目.DAL.NewsTableAdapters.T_NewsTableAdapter" 
+            UpdateMethod="Update">
+            <DeleteParameters>
+                <asp:Parameter Name="Original_Id" Type="Int64" />
+            </DeleteParameters>
+            <UpdateParameters>
+                <asp:Parameter Name="Type" Type="String" />
+                <asp:Parameter Name="Tittle" Type="String" />
+                <asp:Parameter Name="MainContent" Type="String" />
+                <asp:Parameter Name="CreatDate" Type="DateTime" />
+                <asp:Parameter Name="TypeSecond" Type="String" />
+                <asp:Parameter Name="Original_Id" Type="Int64" />
+            </UpdateParameters>
+            <InsertParameters>
+                <asp:Parameter Name="Type" Type="String" />
+                <asp:Parameter Name="Tittle" Type="String" />
+                <asp:Parameter Name="MainContent" Type="String" />
+                <asp:Parameter Name="CreatDate" Type="DateTime" />
+                <asp:Parameter Name="TypeSecond" Type="String" />
+            </InsertParameters>
+        </asp:ObjectDataSource>
+        <asp:ObjectDataSource ID="odsinform" runat="server" DeleteMethod="Delete" 
+            InsertMethod="Insert" OldValuesParameterFormatString="original_{0}" 
+            SelectMethod="SelectNewsInfrom" 
+            TypeName="辽宁科技大学软件学院网站项目.DAL.NewsTableAdapters.T_NewsTableAdapter" 
+            UpdateMethod="Update">
+            <DeleteParameters>
+                <asp:Parameter Name="Original_Id" Type="Int64" />
+            </DeleteParameters>
+            <UpdateParameters>
+                <asp:Parameter Name="Type" Type="String" />
+                <asp:Parameter Name="Tittle" Type="String" />
+                <asp:Parameter Name="MainContent" Type="String" />
+                <asp:Parameter Name="CreatDate" Type="DateTime" />
+                <asp:Parameter Name="TypeSecond" Type="String" />
+                <asp:Parameter Name="Original_Id" Type="Int64" />
+            </UpdateParameters>
+            <InsertParameters>
+                <asp:Parameter Name="Type" Type="String" />
+                <asp:Parameter Name="Tittle" Type="String" />
+                <asp:Parameter Name="MainContent" Type="String" />
+                <asp:Parameter Name="CreatDate" Type="DateTime" />
+                <asp:Parameter Name="TypeSecond" Type="String" />
+            </InsertParameters>
+        </asp:ObjectDataSource>
+        <br /><asp:Repeater ID="RepeaterNewestNews" runat="server" DataSourceID="odsnewestnews">
+        <HeaderTemplate><table id="tablestyle">最新动态</HeaderTemplate>
+        <ItemTemplate><tr><td> <div id="repeaterleft">&nbsp&nbsp·&nbsp<a href="show.aspx?id=<%#Eval("Id") %>&from=homenews"><%#Eval("Tittle") %> </a></div></td><td><div  id="repeaterright"> <%#Eval("CreatDate") %></div></td></tr></ItemTemplate>
+        <FooterTemplate></table></FooterTemplate>
+        </asp:Repeater><br />
+        <asp:Repeater ID="Repeaterinform" runat="server" DataSourceID="odsinform">
+        <HeaderTemplate><table id="tablestyle"><a href="通知公告.aspx" style=" text-decoration:none">通知公告</a></HeaderTemplate>
+        <ItemTemplate><tr><td><div id="repeaterleft">&nbsp&nbsp·&nbsp<a href="show.aspx?id=<%#Eval("Id") %>&from=homeinform"><%#Eval("Tittle") %> </a></div></td><td><div  id="repeaterright"> <%#Eval("CreatDate") %></div></td></tr></ItemTemplate>
+        <FooterTemplate></table></FooterTemplate>
+        </asp:Repeater>
+    </div>
+    <div id="footnavigate">
+    &nbsp&nbsp&nbsp<a href="http://www.ustl.edu.cn/">鞍大首页</a>&nbsp&nbsp|&nbsp&nbsp<a href="学院概况.aspx?show=学院5">精品课程</a>&nbsp&nbsp|&nbsp&nbsp<a href="mailto:zzw_asust@163.com">院长信箱</a>&nbsp&nbsp|&nbsp&nbsp<a href="rjxy.aspx">建议最佳分辨率1024*768</a>
+    </div>  
+    </div>  
+    <div id="footer">
+    鞍山大学软件学院   |    地址：鞍山市千山路185号   |   邮编：114051   |   邮箱：<a  href="mailto:software@ustl.edu.cn">software@ustl.edu.cn</a>    |    联系我们:0412-5929818
+    </div>
+    </div>
+</form>
+</body>
+</html>
